@@ -1,0 +1,392 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_PROG" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <PROGDIR>
+    <NAME>ZBC401_11_MAIN8</NAME>
+    <SUBC>1</SUBC>
+    <APPL>S</APPL>
+    <RLOAD>D</RLOAD>
+    <FIXPT>X</FIXPT>
+    <UCCHECK>X</UCCHECK>
+   </PROGDIR>
+   <TPOOL>
+    <item>
+     <ID>I</ID>
+     <KEY>001</KEY>
+     <ENTRY>Aircraft Name:</ENTRY>
+     <LENGTH>20</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>002</KEY>
+     <ENTRY>Plane Type:</ENTRY>
+     <LENGTH>12</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>003</KEY>
+     <ENTRY>Weight:</ENTRY>
+     <LENGTH>8</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>004</KEY>
+     <ENTRY>Tank Capacity:</ENTRY>
+     <LENGTH>15</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>CA1</KEY>
+     <ENTRY>Number of Planes:</ENTRY>
+     <LENGTH>21</LENGTH>
+    </item>
+    <item>
+     <ID>R</ID>
+     <ENTRY>Model Solution: Triggering and Handling Interface Events</ENTRY>
+     <LENGTH>57</LENGTH>
+    </item>
+   </TPOOL>
+   <I18N_TPOOL>
+    <item>
+     <LANGUAGE>1</LANGUAGE>
+     <TEXTPOOL>
+      <item>
+       <ID>I</ID>
+       <KEY>001</KEY>
+       <ENTRY>Aircraft Name:</ENTRY>
+       <LENGTH>20</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>002</KEY>
+       <ENTRY>Plane Type:</ENTRY>
+       <LENGTH>12</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>003</KEY>
+       <ENTRY>Weight:</ENTRY>
+       <LENGTH>8</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>004</KEY>
+       <ENTRY>Tank Capacity:</ENTRY>
+       <LENGTH>15</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>CA1</KEY>
+       <ENTRY>Number of Planes:</ENTRY>
+       <LENGTH>21</LENGTH>
+      </item>
+      <item>
+       <ID>R</ID>
+       <ENTRY>Model Solution: Triggering and Handling Interface Events</ENTRY>
+       <LENGTH>57</LENGTH>
+      </item>
+     </TEXTPOOL>
+    </item>
+    <item>
+     <LANGUAGE>3</LANGUAGE>
+     <TEXTPOOL>
+      <item>
+       <ID>I</ID>
+       <KEY>001</KEY>
+       <ENTRY>Aircraft Name:</ENTRY>
+       <LENGTH>20</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>002</KEY>
+       <ENTRY>Plane Type:</ENTRY>
+       <LENGTH>12</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>003</KEY>
+       <ENTRY>Weight:</ENTRY>
+       <LENGTH>8</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>004</KEY>
+       <ENTRY>Tank Capacity:</ENTRY>
+       <LENGTH>15</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>CA1</KEY>
+       <ENTRY>Number of Planes:</ENTRY>
+       <LENGTH>21</LENGTH>
+      </item>
+      <item>
+       <ID>R</ID>
+       <ENTRY>Model Solution: Triggering and Handling Interface Events</ENTRY>
+       <LENGTH>57</LENGTH>
+      </item>
+     </TEXTPOOL>
+    </item>
+    <item>
+     <LANGUAGE>D</LANGUAGE>
+     <TEXTPOOL>
+      <item>
+       <ID>I</ID>
+       <KEY>001</KEY>
+       <ENTRY>Name des Flugzeugs:</ENTRY>
+       <LENGTH>25</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>002</KEY>
+       <ENTRY>Flugzeugtyp:</ENTRY>
+       <LENGTH>25</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>003</KEY>
+       <ENTRY>Gewicht:</ENTRY>
+       <LENGTH>25</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>004</KEY>
+       <ENTRY>Tankkapazität:</ENTRY>
+       <LENGTH>25</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>005</KEY>
+       <ENTRY>Maximale Beladung:</ENTRY>
+       <LENGTH>25</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>006</KEY>
+       <ENTRY>Anzahl Sitzplätze:</ENTRY>
+       <LENGTH>25</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>CA1</KEY>
+       <ENTRY>Anzahl an Flugzeugen:</ENTRY>
+       <LENGTH>25</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>MAX</KEY>
+       <ENTRY>Kapazität des größten Frachtflugzeugs:</ENTRY>
+       <LENGTH>40</LENGTH>
+      </item>
+      <item>
+       <ID>R</ID>
+       <ENTRY>Aggregation und Polymorphie</ENTRY>
+       <LENGTH>27</LENGTH>
+      </item>
+     </TEXTPOOL>
+    </item>
+    <item>
+     <LANGUAGE>F</LANGUAGE>
+     <TEXTPOOL>
+      <item>
+       <ID>I</ID>
+       <KEY>001</KEY>
+       <ENTRY>Aircraft Name:</ENTRY>
+       <LENGTH>20</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>002</KEY>
+       <ENTRY>Plane Type:</ENTRY>
+       <LENGTH>12</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>003</KEY>
+       <ENTRY>Weight:</ENTRY>
+       <LENGTH>8</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>004</KEY>
+       <ENTRY>Tank Capacity:</ENTRY>
+       <LENGTH>15</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>CA1</KEY>
+       <ENTRY>Number of Planes:</ENTRY>
+       <LENGTH>21</LENGTH>
+      </item>
+      <item>
+       <ID>R</ID>
+       <ENTRY>Model Solution: Triggering and Handling Interface Events</ENTRY>
+       <LENGTH>57</LENGTH>
+      </item>
+     </TEXTPOOL>
+    </item>
+    <item>
+     <LANGUAGE>J</LANGUAGE>
+     <TEXTPOOL>
+      <item>
+       <ID>I</ID>
+       <KEY>001</KEY>
+       <ENTRY>Aircraft Name:</ENTRY>
+       <LENGTH>20</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>002</KEY>
+       <ENTRY>Plane Type:</ENTRY>
+       <LENGTH>12</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>003</KEY>
+       <ENTRY>Weight:</ENTRY>
+       <LENGTH>8</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>004</KEY>
+       <ENTRY>Tank Capacity:</ENTRY>
+       <LENGTH>15</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>CA1</KEY>
+       <ENTRY>Number of Planes:</ENTRY>
+       <LENGTH>21</LENGTH>
+      </item>
+      <item>
+       <ID>R</ID>
+       <ENTRY>Model Solution: Triggering and Handling Interface Events</ENTRY>
+       <LENGTH>57</LENGTH>
+      </item>
+     </TEXTPOOL>
+    </item>
+    <item>
+     <LANGUAGE>M</LANGUAGE>
+     <TEXTPOOL>
+      <item>
+       <ID>I</ID>
+       <KEY>001</KEY>
+       <ENTRY>Aircraft Name:</ENTRY>
+       <LENGTH>20</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>002</KEY>
+       <ENTRY>Plane Type:</ENTRY>
+       <LENGTH>12</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>003</KEY>
+       <ENTRY>Weight:</ENTRY>
+       <LENGTH>8</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>004</KEY>
+       <ENTRY>Tank Capacity:</ENTRY>
+       <LENGTH>15</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>CA1</KEY>
+       <ENTRY>Number of Planes:</ENTRY>
+       <LENGTH>21</LENGTH>
+      </item>
+      <item>
+       <ID>R</ID>
+       <ENTRY>Model Solution: Triggering and Handling Interface Events</ENTRY>
+       <LENGTH>57</LENGTH>
+      </item>
+     </TEXTPOOL>
+    </item>
+    <item>
+     <LANGUAGE>R</LANGUAGE>
+     <TEXTPOOL>
+      <item>
+       <ID>I</ID>
+       <KEY>001</KEY>
+       <ENTRY>Aircraft Name:</ENTRY>
+       <LENGTH>20</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>002</KEY>
+       <ENTRY>Plane Type:</ENTRY>
+       <LENGTH>12</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>003</KEY>
+       <ENTRY>Weight:</ENTRY>
+       <LENGTH>8</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>004</KEY>
+       <ENTRY>Tank Capacity:</ENTRY>
+       <LENGTH>15</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>CA1</KEY>
+       <ENTRY>Number of Planes:</ENTRY>
+       <LENGTH>21</LENGTH>
+      </item>
+      <item>
+       <ID>R</ID>
+       <ENTRY>Model Solution: Triggering and Handling Interface Events</ENTRY>
+       <LENGTH>57</LENGTH>
+      </item>
+     </TEXTPOOL>
+    </item>
+    <item>
+     <LANGUAGE>S</LANGUAGE>
+     <TEXTPOOL>
+      <item>
+       <ID>I</ID>
+       <KEY>001</KEY>
+       <ENTRY>Aircraft Name:</ENTRY>
+       <LENGTH>20</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>002</KEY>
+       <ENTRY>Plane Type:</ENTRY>
+       <LENGTH>12</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>003</KEY>
+       <ENTRY>Weight:</ENTRY>
+       <LENGTH>8</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>004</KEY>
+       <ENTRY>Tank Capacity:</ENTRY>
+       <LENGTH>15</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>CA1</KEY>
+       <ENTRY>Number of Planes:</ENTRY>
+       <LENGTH>21</LENGTH>
+      </item>
+      <item>
+       <ID>R</ID>
+       <ENTRY>Model Solution: Triggering and Handling Interface Events</ENTRY>
+       <LENGTH>57</LENGTH>
+      </item>
+     </TEXTPOOL>
+    </item>
+   </I18N_TPOOL>
+  </asx:values>
+ </asx:abap>
+</abapGit>

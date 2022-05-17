@@ -1,0 +1,319 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_PROG" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <PROGDIR>
+    <NAME>ZBC402_11__RTTI_HEADERS</NAME>
+    <SUBC>1</SUBC>
+    <RLOAD>D</RLOAD>
+    <FIXPT>X</FIXPT>
+    <UCCHECK>X</UCCHECK>
+   </PROGDIR>
+   <TPOOL>
+    <item>
+     <ID>I</ID>
+     <KEY>SEL</KEY>
+     <ENTRY>Which database table should be read?</ENTRY>
+     <LENGTH>80</LENGTH>
+    </item>
+    <item>
+     <ID>R</ID>
+     <ENTRY>Solution: Dynamic Method Call</ENTRY>
+     <LENGTH>70</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>PA_NOL</KEY>
+     <ENTRY>Maximum Number of Lines</ENTRY>
+     <LENGTH>31</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>PA_XCONN</KEY>
+     <ENTRY>SPFLI</ENTRY>
+     <LENGTH>13</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>PA_XCUST</KEY>
+     <ENTRY>SCUSTOM</ENTRY>
+     <LENGTH>15</LENGTH>
+    </item>
+   </TPOOL>
+   <I18N_TPOOL>
+    <item>
+     <LANGUAGE>1</LANGUAGE>
+     <TEXTPOOL>
+      <item>
+       <ID>I</ID>
+       <KEY>SEL</KEY>
+       <ENTRY>Which database table should be read?</ENTRY>
+       <LENGTH>80</LENGTH>
+      </item>
+      <item>
+       <ID>R</ID>
+       <ENTRY>Solution: Dynamic Method Call</ENTRY>
+       <LENGTH>70</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>PA_NOL</KEY>
+       <ENTRY>Maximum Number of Lines</ENTRY>
+       <LENGTH>31</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>PA_XCONN</KEY>
+       <ENTRY>SPFLI</ENTRY>
+       <LENGTH>13</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>PA_XCUST</KEY>
+       <ENTRY>SCUSTOM</ENTRY>
+       <LENGTH>15</LENGTH>
+      </item>
+     </TEXTPOOL>
+    </item>
+    <item>
+     <LANGUAGE>3</LANGUAGE>
+     <TEXTPOOL>
+      <item>
+       <ID>I</ID>
+       <KEY>SEL</KEY>
+       <ENTRY>Which database table should be read?</ENTRY>
+       <LENGTH>80</LENGTH>
+      </item>
+      <item>
+       <ID>R</ID>
+       <ENTRY>Solution: Dynamic Method Call</ENTRY>
+       <LENGTH>70</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>PA_NOL</KEY>
+       <ENTRY>Maximum Number of Lines</ENTRY>
+       <LENGTH>31</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>PA_XCONN</KEY>
+       <ENTRY>SPFLI</ENTRY>
+       <LENGTH>13</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>PA_XCUST</KEY>
+       <ENTRY>SCUSTOM</ENTRY>
+       <LENGTH>15</LENGTH>
+      </item>
+     </TEXTPOOL>
+    </item>
+    <item>
+     <LANGUAGE>D</LANGUAGE>
+     <TEXTPOOL>
+      <item>
+       <ID>I</ID>
+       <KEY>SEL</KEY>
+       <ENTRY>Von welcher Datenbanktabelle soll gelesen werden?</ENTRY>
+       <LENGTH>80</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>PA_NOL</KEY>
+       <ENTRY>Maximale Zeilenzahl</ENTRY>
+       <LENGTH>27</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>PA_XCONN</KEY>
+       <ENTRY>SPFLI</ENTRY>
+       <LENGTH>13</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>PA_XCUST</KEY>
+       <ENTRY>SCUSTOM</ENTRY>
+       <LENGTH>15</LENGTH>
+      </item>
+      <item>
+       <ID>R</ID>
+       <ENTRY>Lösung: Dynamischer Methodenaufruf</ENTRY>
+       <LENGTH>34</LENGTH>
+      </item>
+     </TEXTPOOL>
+    </item>
+    <item>
+     <LANGUAGE>F</LANGUAGE>
+     <TEXTPOOL>
+      <item>
+       <ID>I</ID>
+       <KEY>SEL</KEY>
+       <ENTRY>Which database table should be read?</ENTRY>
+       <LENGTH>80</LENGTH>
+      </item>
+      <item>
+       <ID>R</ID>
+       <ENTRY>Solution: Dynamic Method Call</ENTRY>
+       <LENGTH>70</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>PA_NOL</KEY>
+       <ENTRY>Maximum Number of Lines</ENTRY>
+       <LENGTH>31</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>PA_XCONN</KEY>
+       <ENTRY>SPFLI</ENTRY>
+       <LENGTH>13</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>PA_XCUST</KEY>
+       <ENTRY>SCUSTOM</ENTRY>
+       <LENGTH>15</LENGTH>
+      </item>
+     </TEXTPOOL>
+    </item>
+    <item>
+     <LANGUAGE>J</LANGUAGE>
+     <TEXTPOOL>
+      <item>
+       <ID>I</ID>
+       <KEY>SEL</KEY>
+       <ENTRY>Which database table should be read?</ENTRY>
+       <LENGTH>80</LENGTH>
+      </item>
+      <item>
+       <ID>R</ID>
+       <ENTRY>Solution: Dynamic Method Call</ENTRY>
+       <LENGTH>70</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>PA_NOL</KEY>
+       <ENTRY>Maximum Number of Lines</ENTRY>
+       <LENGTH>31</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>PA_XCONN</KEY>
+       <ENTRY>SPFLI</ENTRY>
+       <LENGTH>13</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>PA_XCUST</KEY>
+       <ENTRY>SCUSTOM</ENTRY>
+       <LENGTH>15</LENGTH>
+      </item>
+     </TEXTPOOL>
+    </item>
+    <item>
+     <LANGUAGE>M</LANGUAGE>
+     <TEXTPOOL>
+      <item>
+       <ID>I</ID>
+       <KEY>SEL</KEY>
+       <ENTRY>Which database table should be read?</ENTRY>
+       <LENGTH>80</LENGTH>
+      </item>
+      <item>
+       <ID>R</ID>
+       <ENTRY>Solution: Dynamic Method Call</ENTRY>
+       <LENGTH>70</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>PA_NOL</KEY>
+       <ENTRY>Maximum Number of Lines</ENTRY>
+       <LENGTH>31</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>PA_XCONN</KEY>
+       <ENTRY>SPFLI</ENTRY>
+       <LENGTH>13</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>PA_XCUST</KEY>
+       <ENTRY>SCUSTOM</ENTRY>
+       <LENGTH>15</LENGTH>
+      </item>
+     </TEXTPOOL>
+    </item>
+    <item>
+     <LANGUAGE>R</LANGUAGE>
+     <TEXTPOOL>
+      <item>
+       <ID>I</ID>
+       <KEY>SEL</KEY>
+       <ENTRY>Which database table should be read?</ENTRY>
+       <LENGTH>80</LENGTH>
+      </item>
+      <item>
+       <ID>R</ID>
+       <ENTRY>Solution: Dynamic Method Call</ENTRY>
+       <LENGTH>70</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>PA_NOL</KEY>
+       <ENTRY>Maximum Number of Lines</ENTRY>
+       <LENGTH>31</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>PA_XCONN</KEY>
+       <ENTRY>SPFLI</ENTRY>
+       <LENGTH>13</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>PA_XCUST</KEY>
+       <ENTRY>SCUSTOM</ENTRY>
+       <LENGTH>15</LENGTH>
+      </item>
+     </TEXTPOOL>
+    </item>
+    <item>
+     <LANGUAGE>S</LANGUAGE>
+     <TEXTPOOL>
+      <item>
+       <ID>I</ID>
+       <KEY>SEL</KEY>
+       <ENTRY>Which database table should be read?</ENTRY>
+       <LENGTH>80</LENGTH>
+      </item>
+      <item>
+       <ID>R</ID>
+       <ENTRY>Solution: Dynamic Method Call</ENTRY>
+       <LENGTH>70</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>PA_NOL</KEY>
+       <ENTRY>Maximum Number of Lines</ENTRY>
+       <LENGTH>31</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>PA_XCONN</KEY>
+       <ENTRY>SPFLI</ENTRY>
+       <LENGTH>13</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>PA_XCUST</KEY>
+       <ENTRY>SCUSTOM</ENTRY>
+       <LENGTH>15</LENGTH>
+      </item>
+     </TEXTPOOL>
+    </item>
+   </I18N_TPOOL>
+  </asx:values>
+ </asx:abap>
+</abapGit>

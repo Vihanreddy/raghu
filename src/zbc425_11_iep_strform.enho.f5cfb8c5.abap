@@ -1,0 +1,6 @@
+"Name: \PR:BC425_11_IEP_STRFORM\DA:WA_CONN\SE:END\EI
+ENHANCEMENT 0 ZBC425_11_IEP_STRFORM.
+DATA: distance TYPE spfli-distance,
+ distid TYPE spfli-distid.
+
+ENDENHANCEMENT.

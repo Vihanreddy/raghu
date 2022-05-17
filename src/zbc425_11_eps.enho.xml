@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_ENHO" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <TOOL>HOOK_IMPL</TOOL>
+   <SHORTTEXT>explict implimenction</SHORTTEXT>
+   <ORIGINAL_OBJECT>
+    <PGMID>R3TR</PGMID>
+    <ORG_OBJ_TYPE>PROG</ORG_OBJ_TYPE>
+    <ORG_OBJ_NAME>BC425_11_EPS</ORG_OBJ_NAME>
+    <ORG_MAIN_TYPE>PROG</ORG_MAIN_TYPE>
+    <ORG_MAIN_NAME>BC425_11_EPS</ORG_MAIN_NAME>
+    <PROGRAMNAME>BC425_11_EPS</PROGRAMNAME>
+   </ORIGINAL_OBJECT>
+   <ENHANCEMENTS>
+    <ENH_HOOK_IMPL>
+     <SPOTNAME>BC425_11_ESPOT1</SPOTNAME>
+     <PROGRAMNAME>BC425_11_EPS</PROGRAMNAME>
+     <ENHMODE>D</ENHMODE>
+     <FULL_NAME>\PR:BC425_11_EPS\EX:BC425_11_EP1\EI</FULL_NAME>
+    </ENH_HOOK_IMPL>
+    <ENH_HOOK_IMPL>
+     <SPOTNAME>BC425_11_ESPOT1</SPOTNAME>
+     <PROGRAMNAME>BC425_11_EPS</PROGRAMNAME>
+     <ENHMODE>D</ENHMODE>
+     <FULL_NAME>\PR:BC425_11_EPS\EX:BC425_11_ES1\EI</FULL_NAME>
+    </ENH_HOOK_IMPL>
+   </ENHANCEMENTS>
+   <FILES>
+    <item>
+     <NAME>\PR:BC425_11_EPS\EX:BC425_11_EP1\EI</NAME>
+     <FILE>b8a4e6b3</FILE>
+    </item>
+    <item>
+     <NAME>\PR:BC425_11_EPS\EX:BC425_11_ES1\EI</NAME>
+     <FILE>bc1c89a1</FILE>
+    </item>
+   </FILES>
+   <SOTR>
+    <item>
+     <HEADER>
+      <CONCEPT>00505604273F1EECB4CDE6E63B5271C0</CONCEPT>
+      <CREA_LAN>E</CREA_LAN>
+      <TRALA_TYPE>1</TRALA_TYPE>
+      <OBJID_VEC>AAI=</OBJID_VEC>
+     </HEADER>
+     <ENTRIES>
+      <SOTR_TEXT>
+       <CONCEPT>00505604273F1EECB4CDE6E63B5271C0</CONCEPT>
+       <LANGU>E</LANGU>
+       <LFD_NUM>0001</LFD_NUM>
+       <FLAG_CNTXT>X</FLAG_CNTXT>
+       <STATUS>R</STATUS>
+       <LENGTH>032</LENGTH>
+       <TEXT>explict implimenction</TEXT>
+      </SOTR_TEXT>
+     </ENTRIES>
+    </item>
+   </SOTR>
+   <SOTR_USE>
+    <SOTR_USE>
+     <PGMID>R3TR</PGMID>
+     <OBJECT>ENHO</OBJECT>
+     <OBJ_NAME>ZBC425_11_EPS</OBJ_NAME>
+     <CONCEPT>00505604273F1EECB4CDE6E63B5271C0</CONCEPT>
+     <LFD_NUM>0001</LFD_NUM>
+    </SOTR_USE>
+   </SOTR_USE>
+  </asx:values>
+ </asx:abap>
+</abapGit>
